@@ -1,0 +1,233 @@
+html,body{
+    overflow-x: hidden;
+}
+
+.background {
+  background: url(../../images/home-hero.jpg);
+  width: auto;
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+}
+
+img {
+
+}
+
+.btn {
+background: #248a83;
+color: white;
+}
+
+h1 {
+    padding-top: 4%;
+}
+
+.product-icon {
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e1e1e1;
+    border-top-width: 5px;
+    flex: 0 1 23.5%;
+    max-width: 23.5%;
+    padding: .75rem;
+    justify-content: space-between;
+    &:hover{
+      border-color: #d99054;
+    }
+}
+
+.shop-stuff-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.logo {
+  width: 12%;
+  height: 12%;
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+.shop-border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+}
+
+.clear {
+  clear: both;
+}
+
+.shop {
+  //background-color:grey;
+  width:25%;
+  height:250px;
+  float: left;
+}
+
+.shop-icon{
+  width: 30%;
+  height: 30%;
+  //margin: 0 auto;
+}
+
+nav {
+  float: right;
+  padding-top: 3%;
+  padding-right: 3%;
+  a {
+    color: white;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+
+.adventure-item {
+    height: 500px;
+    background-size: 100%;
+    min-width:50%;
+    &.half-adventure {
+        height: 250px;
+    }
+    &.quarter-adventure {
+        height: 250px;
+        max-width: 25%;
+    }
+}
+
+
+.front-page-posts{
+ display: flex;
+}
+
+.journal-post{
+  display: flex;
+  justify-content: space-between;
+  width: 32%;
+  //list-style-type: none;
+}
+
+.journal-picture {
+  line-height: 0;
+  min-height: 250px;
+  max-height: 250px;
+  width: 380px;
+}
+
+.journal-info{
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px;
+  padding-bottom: 17px;
+  padding-left: 10px;
+}
+
+.site-footer1{
+    background: url(../../images/dark-wood@2x.png);
+    background-size: 512px 512px;
+    height: 350px;
+    color: #fff;
+}
+
+.adventures {
+margin-bottom: 70px;
+h3 {
+  a {
+    color: white;
+    font-family: 'merriweather',sans-serif;
+    text-transform: none;
+    font-size: 2rem;
+    font-weight: 400;
+    &:hover {
+      color: #f0e4d1  ;
+    }
+  }
+}
+p {
+  padding-top: 40px;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-height: 620px;
+  max-width: none;
+  width: auto;
+  z-index: -1;
+  position: relative;
+  display: block;
+}
+ul {
+  list-style: none;
+  display: inline;
+  padding-left: 0;
+  margin-left: 0;
+  li {
+    h3 a {
+      margin-bottom: 20px;
+    }
+    &:first-child {
+      width: 49%;
+      float: left;
+      h3 a {
+        font-size: 2.75rem;
+        line-height: 1;
+      }
+    }
+    &:nth-child(2) {
+      width: 49%;
+      float:right;
+      img {
+        height: 300px;
+        width: 100%;
+      }
+      h3 a {
+        font-size: 2.25rem;
+        line-height: 1;
+      }
+    }
+    &:nth-child(3), &:last-child {
+      width: 24%;
+      float: right;
+      margin-left: 1%;
+      margin-top: 1.75%;
+      font-size: 1rem;
+      img {
+        height: 300px;
+      }
+      h3 a {
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+    }
+  } // li
+} // ul
+}
+
+.story-wrap {
+position: relative;
+overflow: hidden;
+display: flex;
+justify-content: center;
+.adventure-image{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.25) 100%);
+  padding: 0;
+}
+.story-info {
+  margin-top: 30px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  padding: 20px 10px;
+}
+}
